@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th>Productos actuales</th>
+    </tr>
+    {{#each products}}
+    <tr>
+        <td>
+            <div>
+                <p>ID: {{this.id}} </p>
+                <p>NOMBRE: {{this.title}} </p>
+                <p>DESCRIPCION: {{this.description}} </p>
+            </div>
+        </td>
+    </tr>
+    {{/each}}
+</table>

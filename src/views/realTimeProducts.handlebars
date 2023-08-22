@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Productos en tiempo real</title>
+</head>
+<body>
+    <h1>Productos en tiempo real</h1>
+
+    <table>
+        <tr>
+            <th style="min-width: 500px;">Productos actuales</th>
+            <th style="min-width: 500px;">Crear Producto</th>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <p id="productsInRealTime"></p>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <form id="formProduct">
+                        <label for="title">Title</label>
+                        <input type="text" name="title" required>
+                        
+                        <label for="description">Description</label>
+                        <input type="text" name="description" required>
+                        
+                        <label for="category">Category</label>
+                        <input type="text" name="category" required>
+                        
+                        <label for="price">Price</label>
+                        <input type="number" name="price" required>
+                        
+                        <label for="stock">Stock</label>
+                        <input type="number" name="stock" required>
+                        
+                        <label for="code">Code</label>
+                        <input type="text" name="code" required>
+                        
+                        <label for="status">Status</label>
+                        <input type="text" name="status" required>
+                        
+                        <label for="thumbnails">Thumbnails</label>
+                        <input type="text" name="thumbnails" required>
+                        
+                        <button type="submit">Crear Producto</button>
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
